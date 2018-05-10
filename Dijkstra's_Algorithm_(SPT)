@@ -1,3 +1,9 @@
+'''
+For use in finding the shortest path from one node in a graph to the next.
+Given a matrix g with nodes as rows and vertex weight between nodes as each column
+Returns min distance to all nodes in graph
+I could improve O(Time) even further with a priority queue.
+'''
 class Graph():
 	def __init__(self, graph):
 		self.V = len(graph)
