@@ -46,3 +46,4 @@ class ChessBoard:
     def printBoard(self):
         for e in self.board:
             print(e)
+    
