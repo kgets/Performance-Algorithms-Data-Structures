@@ -1,3 +1,6 @@
+#
+# https://developers.google.com/optimization/cp/queens
+#
 def nQueens(n):
     c=ChessBoard(n)
     DFS(c,0)
